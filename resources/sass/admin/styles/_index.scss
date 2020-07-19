@@ -1,0 +1,19 @@
+// Write (or import) your styles here
+.uploadtable th, .uploadtable td{
+    padding:0 !important;
+}
+.uploadtable thead tr{
+    padding:0 !important;
+    border:0px;
+}
+.uploadindex{
+    padding:0 !important;
+}
+.upload-link{
+    text-underline: none;
+    
+}
+.upload-link:hover , .upload-link {
+    color: rgba(10, 40, 121, 0.85);
+    text-decoration: none;
+  }
