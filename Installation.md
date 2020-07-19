@@ -21,7 +21,7 @@
 CREATE DATABASE \`thehub\` /*!40100 COLLATE 'utf8mb4_unicode_ci' */;
 
 # Cloud Storage
-- Create storage container (blob) in Azure
+- Create BlockBlobStorage storage accounts in Azure
 https://portal.azure.com, other storage should be supported but require some extra packages (https://laravel.com/docs/7.x/filesystem)
 
 # Application installation & Configuration
