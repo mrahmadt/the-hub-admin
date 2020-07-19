@@ -3,11 +3,9 @@
 #Create a database in your database server
 CREATE DATABASE `thehub` /*!40100 COLLATE 'utf8mb4_unicode_ci' */;
 
-#create storage and container (blob) in Azure
+#
 https://portal.azure.com
 
-#Setting Permissions for different folders
-sudo chmod -R 775 storage/ bootstrap/cache/ vendor/
 
 #Installing Composer dependency
 composer install
