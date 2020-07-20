@@ -27,7 +27,7 @@ https://portal.azure.com, other storage should be supported but require some ext
 # Application installation & Configuration
 - Setting Permissions for different folders
 
-`sudo chmod -R 775 storage/ bootstrap/cache/ vendor/`
+`chmod -R 775 storage/ bootstrap/cache/ vendor/`
 
 - Installing Composer dependency
 
