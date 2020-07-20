@@ -13,7 +13,7 @@
 - Tokenizer PHP Extension
 - XML PHP Extension
 - Composer
-
+- npm
 
 # Database
 - Create a database in your database server
@@ -132,7 +132,7 @@ From https://docs.microsoft.com/en-us/azure/mysql/howto-configure-ssl
 
 ### Setup admin email and password 
 
-`php artisan theHubadmin:install-admin`
+`php artisan thehub:install-admin`
 
 ### Running NPM install
 
