@@ -29,14 +29,14 @@ class SettingTableSeeder extends Seeder {
     public function run()
     {
         DB::table('settings')->truncate();
-        App\Models\Tab::create([
+        App\Models\Setting::create([
             'description' => 'Message you would like to display to users on "My Apps" page',
             'key' => 'users.announcement',
             'value'=>null,
             'inputType' => 1
         ]);
 
-        App\Models\Tab::create([
+        App\Models\Setting::create([
             'description' => 'Message you would like to display to in all pages',
             'key' => 'ui.banner.top',
             'value'=>null,
