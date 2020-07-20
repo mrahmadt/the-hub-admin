@@ -2,7 +2,7 @@
 # Server Requirements
 
 - MySQL or Mariadb
-- PHP >= 7.2.5
+- PHP >= 7.3
 - BCMath PHP Extension
 - Ctype PHP Extension
 - Fileinfo PHP extension
@@ -120,7 +120,7 @@ From https://docs.microsoft.com/en-us/azure/mysql/howto-configure-ssl
 
 ### Generate app key
 
-`php key:generate`
+`php artisan key:generate`
 
 ### Create database tables
 
