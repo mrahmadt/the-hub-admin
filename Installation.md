@@ -1,4 +1,4 @@
-
+\
 # Server Requirements
 
 - MySQL or Mariadb
