@@ -1,3 +1,4 @@
+@section('title', 'The Hub - Admin')
 <div class="sidebar">
     <nav class="sidebar-nav">
         <ul class="nav">
