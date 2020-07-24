@@ -18,7 +18,10 @@ class CreateApplicationUserTable extends Migration
             $table->foreignId('application_id')->constrained('applications');
             $table->foreignId('user_id')->constrained('users');
             $table->timestamps();
-            $table->unique('application_id', 'user_id');
+            $table->unique(['application_id', 'user_id']);
+            $table->index('application_id');
+            $table->index('user_id');
+
         });
     }
 
