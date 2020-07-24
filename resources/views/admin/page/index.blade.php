@@ -83,7 +83,7 @@
                                                 <span class="switch-slider"></span>
                                             </label>
                                         </td>
-                                        <td><a :href="'{{ config('app.user_url')}}/pages/'+ item.id" target=_new :id="'url'+item.id">{{ config('app.user_url')}}/pages/@{{ item.id }}</a> <a href="#" class="btn btn-sm btn-dark" v-on:click="copyURL('{{ config('app.user_url')}}/pages/'+ item.id)">Copy URL</a> </td>
+                                        <td><a :href="'{{ config('app.user_url')}}/page/'+ item.id" target=_new :id="'url'+item.id">{{ config('app.user_url')}}/page/@{{ item.id }}</a> <a href="#" class="btn btn-sm btn-dark" v-on:click="copyURL('{{ config('app.user_url')}}/page/'+ item.id)">Copy URL</a> </td>
 
                                         
                                         <td>

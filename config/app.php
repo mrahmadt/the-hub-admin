@@ -2,7 +2,8 @@
 
 return [
 
-    'user_url' => env('USER_URL', ''),
+    'user_url' => substr(env('USER_URL', '/'),-1) =='/' ?  env('USER_URL', '/') : env('USER_URL', '/') .'/',
+    
     'cloud_disk' => env('FILESYSTEM_CLOUD', ''),
 
     /*
