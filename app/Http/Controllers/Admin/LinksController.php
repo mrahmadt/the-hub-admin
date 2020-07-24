@@ -28,6 +28,7 @@ class LinksController extends Controller
         $link_meta = [
             'title'=>null,
             'description'=>null,
+            'iframe'=>false,
             'icon'=>null,
             'extra_icons'=>[]
         ];
@@ -96,6 +97,14 @@ class LinksController extends Controller
                     $link_meta['icon'] = $link_meta['extra_icons'][0];
                 }
             }
+
+            $header = array_change_key_case(get_headers($url, 1));
+            if(isset($header["x-frame-options"])){
+                $link_meta['iframe'] = false;
+            }else{
+                $link_meta['iframe'] = true;
+            }
+
             return response()->json($link_meta, 200);
         } catch (Exception $e) {
             return response()->json(['error'=>2,'message'=> $e->getMessage()], 422);

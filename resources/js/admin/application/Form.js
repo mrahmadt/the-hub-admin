@@ -37,14 +37,16 @@ Vue.component('application-form', {
                 this.form.name = '';
                 this.form.icon = '';
                 this.form.description = '';
-
                 this.form.name = response.data.title;
                 this.form.icon = response.data.icon;
                 this.form.description = response.data.description;
+                this.form.isNewPageForIframe = (response.data.iframe) ? 1:0;
                 this.showLoading = false;
 
                 this.showIconList = true;
                 this.extraIcons = response.data.extra_icons
+
+                
                 console.log(response)
             })
             .catch(err => {
