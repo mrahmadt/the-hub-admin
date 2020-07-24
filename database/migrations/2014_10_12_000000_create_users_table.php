@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('avatar')->nullable();
+            $table->longText('avatar')->nullable();
             $table->string('provider', 20);
             $table->string('provider_id');
             $table->longText('access_token')->nullable();
