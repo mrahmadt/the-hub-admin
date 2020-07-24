@@ -40,7 +40,7 @@ Vue.component('application-form', {
                 this.form.name = response.data.title;
                 this.form.icon = response.data.icon;
                 this.form.description = response.data.description;
-                this.form.isNewPageForIframe = (response.data.iframe) ? 1:0;
+                this.form.isNewPageForIframe = (response.data.iframe) ? 0:1;
                 this.showLoading = false;
 
                 this.showIconList = true;
