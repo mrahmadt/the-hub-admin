@@ -1,7 +1,7 @@
 
 # The Hub Admin
 
-This is the Admin Portal component for (The Hub)[https://github.com/mrahmadt/The-Hub]
+This is the Admin Portal component for [The Hub](https://github.com/mrahmadt/The-Hub)
 
 
 # Server Requirements
