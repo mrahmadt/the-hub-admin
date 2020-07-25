@@ -21,7 +21,9 @@ This is the Admin Portal component for [The Hub](https://github.com/mrahmadt/The
 
 # Download The Hub Admin
 
-https://github.com/mrahmadt/The-Hub-Admin/archive/master.zip
+- Download https://github.com/mrahmadt/The-Hub-Admin/archive/master.zip
+
+- Unzip master.zip 
 
 # Database
 - Create a database in your database server
